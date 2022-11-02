@@ -7,6 +7,4 @@ Feature: Search item
       Then @search I land on Homepage
       When @search I search for "iPhone 14"
       And @search I validate search text
-      # And @login I click login button
-      # Then @login I land on Homepage
       And @api I run fake API
