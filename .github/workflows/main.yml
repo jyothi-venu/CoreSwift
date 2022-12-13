@@ -15,6 +15,7 @@ jobs:
           headed: true
           record: true
           tag: node-${{ matrix.node }}
+          command: npx cypress run
           parallel: true
           group: 'Actions example'
 
