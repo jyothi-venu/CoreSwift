@@ -1,4 +1,4 @@
-Feature: Search item
+Feature: Search item 
 
 
    Scenario: search item in amazon website
